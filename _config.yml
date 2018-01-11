@@ -15,7 +15,7 @@ google_analytics: false   # your id
 livere_id: 'city'
 livere_uid: 'your uid'
 
-start_year: 2014
+start_year: 2018
 
 reward_images: # add your qr image
 # - type: '微信'
