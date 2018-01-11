@@ -1,6 +1,6 @@
 # head
 menu:
-  カタログ/（目录）: /archives
+  archives : /archives
   # sitemap: /sitemap.xml
   # other menus
 
@@ -15,7 +15,7 @@ google_analytics: false   # your id
 livere_id: 'city'
 livere_uid: 'your uid'
 
-start_year: 2016
+start_year: 2014
 
 reward_images: # add your qr image
 # - type: '微信'

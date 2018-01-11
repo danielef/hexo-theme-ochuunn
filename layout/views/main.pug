@@ -1,10 +1,12 @@
 doctype html
-html(lang="zh-CN")
+html(lang="en_US")
   head
     include head.pug
 
   body(style="opacity:0")
     header.head
+      div.logo
+        img(src='https://s.gravatar.com/avatar/4bae9eae76a67a7657792a4491831d96?s=80')
       h1.head-title.u-fl: a(href = config.root)
         = config.title
       include nav.pug

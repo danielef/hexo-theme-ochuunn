@@ -1,17 +1,23 @@
-# Ochuunn
+# Ochuunn by danielef
 
-## 特点
-* 文章界面很清晰，很适合阅读~
+## Features
+* Article interface is very clear, it is suitable for reading
 * Google Search Console
 * Google Analytics
-* [LiveRe](https://livere.com/) (我去掉了disqus, 国内不翻墙压根连不上)
-* 打赏
-* 🎈 页面滚动快捷键 (j, k, t, b, n, m 具体功能自己尝试, console 有提示~)
+* [LiveRe](https://livere.com/)
+* Page scroll shortcuts (j, k, t, b, n, m)
 
-## Demo
+## Modified 
+* Change colors
+* Remove console messages
+
+## Demo (original)
 [I am Oliver](http://ochukai.me)
 
-# ⚠ 这里很重要 💢💥💖
+## Demo (this one)
+[cognicious](http://cognicio.us)
+
+# ⚠ This is very important 💢💥💖
 
 ```sh
 npm install hexo-renderer-pug --save
@@ -22,7 +28,7 @@ npm install hexo-renderer-pug --save
 1. In the `root` directory:
 
 ```git
-$ git clone https://github.com/ochukai/hexo-theme-ochuunn.git themes/ochuunn
+$ git clone https://github.com/danielef/hexo-theme-ochuunn.git themes/ochuunn
 ```
 
 2. Change the `theme` property in the `config.yml` file.
@@ -32,9 +38,9 @@ $ git clone https://github.com/ochukai/hexo-theme-ochuunn.git themes/ochuunn
 theme: ochuunn
 ```
 
-## 不足
+## 
 
-* 不支持 link 类型的文章
-* 不支持 category，只有 tag
+* Articles link are not supported
+* Does not support category，only tag
 
-(在目录的最下面， 是 hexo 的测试文章，按 b 键直达~)
+(At the bottom of the directory is a hexo test article, press b key direct)

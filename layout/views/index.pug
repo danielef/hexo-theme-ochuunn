@@ -1,11 +1,13 @@
 doctype html
-html.index(lang="zh-CN")
+html.index(lang="en")
   head
     include head.pug
   body    
     #particles-oli-wrapper.hide
     .index-wrapper
       header.head.index.hide
+        div.logo
+          img(src='https://s.gravatar.com/avatar/4bae9eae76a67a7657792a4491831d96?s=80')
         h1.head-title.u-fl
           = config.title
         include nav.pug
